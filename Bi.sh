@@ -61,8 +61,8 @@ read -p "Você quer continuar?[y/n] " lanjut
 if [ "$lanjut" = "n" ]
 then
 sleep 2
-echo "ok mana, a instalação do bot pode ser feita em outro"
-echo "hoje tenha uma boa atividade mana....."
+echo "ok mano, a instalação do bot pode ser feita em outro"
+echo "hoje tenha uma boa atividade mano....."
 sleep 3
 elif [ "$lanjut" = "y" ]
 then
@@ -71,7 +71,7 @@ echo "Por favor espere um momento....."
 sleep 4
 clear
 sleep 2
-echo "          $merah   instalando o TrashDkbot"
+echo "          $merah   instalando o LhyBotz"
 sleep 2
 cd $HOME
 pkg update && pkg upgrade
