@@ -99,9 +99,9 @@ const { limit } = require('./database/menu/limit*/
 // Load Vcard Contact
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:デニス\n' // full name
+            + 'FN:LhyEdits\n' // full name
             + 'ORG:Owner Dns Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6285866295942:+62 858-6629-5942\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=5513997744720:+55 13-99774-4720\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 prefix = '!'
 blocked = []
@@ -399,7 +399,7 @@ async function starts() {
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '6285866295942@s.whatsapp.net'
+                        const NomerOwner = '5513997744720@s.whatsapp.net'
                         const isEventon = isGroup ? event.includes(from) : false
                         const isRegister = checkRegisteredUser(sender)
                         pushname = client.contacts[sender] != undefined ? client.contacts[sender].vname || client.contacts[sender].notify : undefined
