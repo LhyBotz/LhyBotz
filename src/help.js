@@ -1,89 +1,102 @@
-const //database
-	return `
-╔══✪〘 INFO 〙✪══
-║
-╠➥LhyBotz
-╠➥ *1.0*
-╠➥ 𝐃𝐎𝐍𝐎: LhyEdits
-╠➥ 𝐒𝐓𝐀𝐓𝐔𝐒: ON
-║
-╠══✪〘 NOVIDADES 〙✪══
-║1 *${prefix}figu*
-║2 *${prefix}toimg*
-║3 *${prefix}meme*
-║4 *${prefix}memeindo*
-║5 *${prefix}tts*
-║6 *${prefix}lolih [on]*
-║7 *${prefix}nsfwloli [off]*
-║8 *${prefix}url2img*
-║9 *${prefix}leens [na legenda]*
-║10 *${prefix}wait [na legenda]*
-║11 *${prefix}setprefix*
-╠══✪〘 IMAGENS 〙✪══
-║
-║12 *${prefix}loli1*
-║13 *${prefix}hentai*
-║14 *${prefix}porno*
-║15 *${prefix}boanoite*
-║16 *${prefix}bomdia*
-║17 *${prefix}boatarde*
-║18 *${prefix}mia*
-║19 *${prefix}mia1*
-║20 *${prefix}mia2*
-║21 *${prefix}belle*
-║22 *${prefix}belle1*
-║23 *${prefix}belle2*
-║24 *${prefix}belle3*
-║25 *${prefix}akeno*
-║26 *${prefix}meme*   
-║27 *${prefix}lofi*
-║28 *${prefix}malkova*
-║29 *${prefix}canal*
-║30 *${prefix}nsfwloli1*
-║31 *${prefix}reislin*
-║
-╠══✪〘 INTELIGÊNCIA IA 〙✪══
-║
-║32 *${prefix}simih 1 (para ativar)*
-║33 *${prefix}simih 0 (para desativar)*
-║ *${prefix}simi (sua mensagem)*
-║
-╠══✪〘 PREMIUM 〙✪══
-║
-║34 *${prefix}dado*
-║35 *${prefix}cekvip*
-║36 *${prefix}delete*
-║37 *${prefix}modapk*
-║38 *${prefix}indo10*
-║39 *${prefix}qrcode*
-║40 *${prefix}chentai*
-║41 *${prefix}gcpf*
-║42 *${prefix}gbin*
-║43 *${prefix}pack*
-║44 *${prefix}destrava*
-║45 *${prefix}gpessoa*
-╠══✪〘 MAIS ALGUNS 〙✪══
-║
-║46 *${prefix}neko*
-║47 *${prefix}ttp [texto]*
-║48 *${prefix}testime*
-║49 *${prefix}tomp3*
-║50 *${prefix}animehug*
-║51 *${prefix}shoturl*
-║52 *${prefix}pokemon*
-║
-║
-╠══✪〘 𝗗𝗢𝗡𝗢 〙✪══
-║
-║ *NOME: LhyEdits
-║ *INSTA: @LhyEdits
-║
-║  *"Peita ou respeita 🐊🚩*
-║
-║
-║
-╚═〘 LhyBotz 〙`
+const help = (prefix) => {
+	return ` *Comandos de figu* <
+
+ comando: *${prefix} sticker* 
+ desc: converter imagem / gif / vídeo em adesivo
+ uso: responder imagem / gif / vídeo ou enviar imagem / gif / vídeo com legenda\n
+
+ comando: *${prefix} sticker nobg*
+ desc: converte imagem em adesivo enquanto remove o fundo
+ uso: responder imagem ou enviar imagem com legenda\n
+
+ comando: *${prefix} toimg*
+ desc: converter sticker em imagem
+ uso: adesivo de resposta\n
+
+ comando: *${prefix} tsticker*
+ desc: converter texto em adesivo
+ uso: *${prefix} texto tsticker aqui*\n
+
+ > *Comandos Meme* <
+
+ comando: *${prefix} meme*
+ desc: imagens aleatórias de meme [inglês]
+ uso: basta enviar o comando\n
+
+ comando: *${prefix} memeindo*
+ desc: imagens aleatórias de meme [indo]
+ uso: basta enviar o comando\n
+
+ > *Outros comandos* <
+
+ comando: *${prefix} gtts*
+ desc: converter texto em fala / áudio
+ uso: *${prefix} gtts [cc] [texto]* \ nexemplo: *${prefix} gtts ja On2-chan*/n
+
+ comando: *${prefix} loli*
+ desc: imagens aleatórias de loli
+ uso: basta enviar o comando\n
+
+ comando: *${prefix} nsfwloli*
+ desc: imagens aleatórias de nsfw loli
+ uso: basta enviar o comando\n
+
+ comando: *${prefix} url2img*
+ desc: faz capturas de tela da web
+ uso: *${prefix} url2img [type] [url]*\n
+
+ comando: *${prefix} ocr*
+ desc: tira o texto da imagem
+ uso: responder imagem ou enviar imagem com legenda\n
+
+ comando: *${prefix} wait*
+ desc: pesquisar anime com imagem 
+ uso: responder imagem ou enviar imagem com legenda\n
+ comando: *${prefix} setprefix*
+ desc: substituir prefixo
+ uso: *${prefix} setprefix [texto | opcional]*\n
+ nota: este comando só pode ser usado pelo proprietário do bot\n
+
+ > *Comandos de Grupo* <
+
+ comando: *${prefix} add*
+ desc: adicionar membro ao grupo
+ uso: *${prefix} add 5528xxxxx*\n
+ observação: só pode ser usado quando o bot se torna admin e quem envia o comando é admin!\n
+
+ comando: *${prefix} kick*
+ desc: expulsar membros do grupo
+ uso: *${prefix} kick @ tagmember*\n
+ observação: só pode ser usado quando o bot se torna admin e quem envia o comando é admin!\n
+
+ comando: *${prefix} promova*
+ desc: tornar o membro do grupo como administrador do grupo
+ uso: *${prefix} promote @ tagmember*\n
+ observação: só pode ser usado quando o bot se torna admin e quem envia o comando é admin!\n
+
+ comando: *${prefix} demote*
+ desc: tornar o administrador do grupo como membro do grupo
+ uso: *${prefix} demote @ tagmember*\n
+ observação: só pode ser usado quando o bot se torna admin e quem envia o comando é admin!\n
+
+ comando: *${prefix} linkgroup*
+ desc: pegue o link do grupo
+ uso: basta enviar o comando
+ observação: só pode ser usado quando o bot se torna admin e quem envia o comando é admin!\n
+
+ comando: *${prefix} leave*
+ desc: Faça o bot sair do grupo
+ uso: basta enviar o comando
+ nota: só pode ser usado por administradores de grupo e proprietário do bot\n
+
+ comando: *${prefix} tagall*
+ desc: marca todos os membros do grupo, incluindo administradores também
+ uso: basta enviar o comando
+ nota: este comando pode ser usado se você for um administrador de grupo\n
+
+Numero do meu dono:*http://WA.me/5513997744720*
+
+`
 }
 
-//Online.database
-
+exports.help = help
