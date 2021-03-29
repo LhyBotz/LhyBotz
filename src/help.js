@@ -76,7 +76,7 @@ const //database
 ╠══✪〘 𝗗𝗢𝗡𝗢 〙✪══
 ║
 ║ *NOME: LhyEdits
-║ *INSTA: LhyEdits
+║ *INSTA: @LhyEdits
 ║
 ║  *"Peita ou respeita 🐊🚩*
 ║
